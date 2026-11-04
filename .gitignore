@@ -32,3 +32,6 @@ go.work.sum
 # .idea/
 # .vscode/
 brokerApp
+authApp
+frontApp
+front-end/frontApp

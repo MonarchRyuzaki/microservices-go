@@ -31,5 +31,16 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+.DS_Store
+
+# Microservice binaries
 *App
+brokerApp
+authApp
+authenticationApp
+loggerApp
+mailerApp
+frontApp
+
 db-data/
+

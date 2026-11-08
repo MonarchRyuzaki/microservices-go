@@ -70,7 +70,7 @@ func (m *Mail) SendSMTPMessage(msg Message) error {
 	}
 
 	email := mail.NewMSG()
-	email.SetFrom(msg.From).AddTo(msg.To).SetSender(msg.Subject)
+	email.SetFrom(msg.From).AddTo(msg.To).SetSubject(msg.Subject)
 
 	email.SetBody(mail.TextPlain, plainMsg)
 
